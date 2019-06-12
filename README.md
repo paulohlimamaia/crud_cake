@@ -12,13 +12,20 @@ Run commands bellow in order.
 3. sudo -u postgres psql
 
 After Entering pgSql:
-4. 'CREATE DATABASE crud_tmx OWNER postgres ENCODING 'UTF-8';'
-5. '\c crud_tmx'
-6. '\i crud_tmx.sql'
-7. 'exit'
+
+4. CREATE DATABASE crud_tmx OWNER postgres ENCODING 'UTF-8';
+
+5. \c crud_tmx
+
+6. \i crud_tmx.sql
+
+7. exit
+
 
 After Exiting pgSql:
+
 8. composer install
+
 9. bin/cake server
 
 Check the PORT of the server.
