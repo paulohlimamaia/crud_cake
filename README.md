@@ -4,6 +4,12 @@ A small CRUD with CSV export application with [CakePHP](https://cakephp.org) 3.x
 
 The framework source code can be found here: [cakephp/cakephp](https://github.com/cakephp/cakephp).
 
+## Pré requisitos:
+
+- PHP >= 7.2
+- PDO PHP Extension
+- PostgreSQL User postgres with password 'senha'
+
 ## Installation (Dev Server)
 Run commands bellow in order.
 
