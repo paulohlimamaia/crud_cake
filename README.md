@@ -8,7 +8,7 @@ The framework source code can be found here: [cakephp/cakephp](https://github.co
 
 - PHP >= 7.2
 - PDO PHP Extension
-- PostgreSQL User postgres with password 'senha'
+- PostgreSQL User "postgres" with password "senha"
 
 ## Installation (Dev Server)
 Run commands bellow in order.
