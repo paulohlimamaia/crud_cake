@@ -50,5 +50,14 @@
     "prefer-stable": true,
     "config": {
         "sort-packages": true
+    },
+    "extra": {
+      "heroku": {
+        "document-root": "app/webroot",
+        "index-document": "index.php",
+        "compile": [
+          "echo 'Copying DebugKit webroot directory' && cp -rfp $BUILD_DIR/Plugin/DebugKit/webroot $BUILD_DIR/app/webroot/debug_kit"
+        ]
+      }
     }
 }
