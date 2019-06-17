@@ -255,9 +255,9 @@ return [
              * the following line and set the port accordingly
              */
             //'port' => 'non_standard_port_number',
-            'username' => 'oylsvwrkdhlesl',
-            'password' => '2cb6ca7482eb720705e1267033b36465af25d1db5899924217aa29422f581b3a',
-            'database' => 'da8vibi1vihog4',
+            'username' => 'postgres',
+            'password' => 'senha',
+            'database' => 'crud_tmx',
             /*
              * You do not need to set this flag to use full utf-8 encoding (internal default since CakePHP 3.6).
              */
@@ -298,9 +298,9 @@ return [
             'persistent' => false,
             'host' => 'ec2-54-83-9-169.compute-1.amazonaws.com',
             //'port' => 'non_standard_port_number',
-            'username' => 'oylsvwrkdhlesl',
-            'password' => '2cb6ca7482eb720705e1267033b36465af25d1db5899924217aa29422f581b3a',
-            'database' => 'da8vibi1vihog4',
+            'username' => 'postgres',
+            'password' => 'senha',
+            'database' => 'crud_tmx',
             //'encoding' => 'utf8mb4',
             'timezone' => 'UTC',
             'cacheMetadata' => true,
